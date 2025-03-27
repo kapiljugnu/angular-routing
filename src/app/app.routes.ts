@@ -16,7 +16,10 @@ export const routes: Routes = [
     {
         path: 'users/:userId', // userId dynamic path segment
         component: UserTasksComponent,
-        children: userRoutes       
+        children: userRoutes,
+        data: {
+            message: "Hello"
+        } 
     },
     {
         path: '**',
