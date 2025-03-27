@@ -7,7 +7,8 @@ import { routes as userRoutes }from './users/users.routers';
 export const routes: Routes = [
     {
         path: '',
-        component: NoTaskComponent
+        component: NoTaskComponent,
+        title: 'No task selected'
     },
     // {
     //     path: 'tasks',
